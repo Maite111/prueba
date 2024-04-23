@@ -27,6 +27,7 @@ dict = { "Perfil": ['Pobre','MYPE','Independiente','Mujeres','Jovenes','Adultos 
 df = pd.DataFrame(dict)
 st.dataframe(df)
 st.data_editor(
+        data_df,
         hide_index=True,
 )
 
