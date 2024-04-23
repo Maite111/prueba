@@ -43,12 +43,10 @@ df = pd.DataFrame(dict)
 st.dataframe(df)
 
 # BARRA PARA SELECCIONAR
-st.sidebar.[dt]
+st.sidebar.[df]
 with st.sidebar:
-        st.[dt('Perfil')]
+        st.[df('Perfil')]
 
-if sidebar == 'Select Perfil':
-    st.markdown('## Selecciona el perfil que deseas visualizar')
 
 # MINI BOX
 add_selectbox = st.sidebar.selectbox(
