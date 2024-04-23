@@ -43,7 +43,7 @@ df = pd.DataFrame(dict)
 st.dataframe(df)
 
 # BARRA PARA SELECCIONAR
-st.sidebar.[df]
+st.sidebar.[df('Perfil')]
 with st.sidebar:
         st.[df('Perfil')]
 
