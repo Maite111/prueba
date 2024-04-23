@@ -5,6 +5,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+# DATOS
 # Caso de Excel
 # df = pd.read_excel('ejemplo.xlsx')
 # st.dataframe(df)
@@ -41,7 +42,18 @@ dict = { "Perfil": ['Pobre','MYPE','Independiente','Mujeres','Jovenes','Adultos 
 df = pd.DataFrame(dict)
 st.dataframe(df)
 
+# BARRA PARA SELECCIONAR
+st.sidebar.[dt]
+with st.sidebar:
+        st.[dt('Perfil')]
 
+if sidebar == 'Select Perfil':
+    st.markdown('## Selecciona el perfil que deseas visualizar')
 
+# MINI BOX
+add_selectbox = st.sidebar.selectbox(
+        "COPEME - Área de Microfinanzas",
+        ("Email", "Teléfono")
+        )
 
 
