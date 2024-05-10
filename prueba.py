@@ -10,7 +10,7 @@ import numpy as np
 
 # DATOS
 #------
-
+st.set_page_config(page_title="Nichos estratégicos - Perú 2023")
 datos = pd.read_csv('Datos/datos_prueba.csv', sep = ';')
 
 df = pd.DataFrame(datos)
@@ -18,7 +18,7 @@ st.dataframe(df)
 
 # DISEÑO DE PÁGINA
 #-----------------
-st.set_page_config(page_title="Nichos estratégicos - Perú 2023")
+
 
 
 
