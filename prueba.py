@@ -25,7 +25,7 @@ import numpy as np
 
 # Datos de Excel
 
-datos = pd.read_csv('Datos/datos_prueba.csv')
+datos = pd.read_csv('Datos/datos_prueba.csv', set = ';')
 
 df = pd.DataFrame(datos)
 st.dataframe(df)
