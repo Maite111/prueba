@@ -18,7 +18,7 @@ st.dataframe(df)
 
 # DISEÑO DE PÁGINA
 #-----------------
-st.set_page_config(page_title="Nichos estratégicos - Perú 2023", layout="wide")
+st.set_page_config(page_title="Nichos estratégicos - Perú 2023")
 
 
 
