@@ -23,7 +23,7 @@ import openpyxl
 # Datos de Excel
 
 datos = pd.read_excel('Datos/datos_prueba.xlsx')
-datos
+#datos
 #df = pd.DataFrame(datos)
 #st.dataframe(df)
 st.datos
