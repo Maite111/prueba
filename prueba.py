@@ -21,8 +21,9 @@ import numpy as np
 
 # Datos de Excel
 
+datos = pd.read_excel(../prueba/Datos/'datos_prueba.xlsx')
 
-df = pd.DataFrame(dict)
+df = pd.DataFrame(datos)
 st.dataframe(df)
 
 # BARRA PARA SELECCIONAR
