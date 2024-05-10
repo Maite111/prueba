@@ -4,7 +4,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import openpyxl
+#import openpyxl
 
 # DATOS
 #------
@@ -23,9 +23,9 @@ import openpyxl
 # Datos de Excel
 
 datos = pd.read_excel('Datos/datos_prueba.xlsx')
-
-df = pd.DataFrame(datos)
-st.dataframe(df)
+datos
+#df = pd.DataFrame(datos)
+#st.dataframe(df)
 
 # BARRA PARA SELECCIONAR
 #st.sidebar.[df('Perfil')]
