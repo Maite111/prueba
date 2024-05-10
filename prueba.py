@@ -26,6 +26,7 @@ datos = pd.read_excel('Datos/datos_prueba.xlsx')
 datos
 #df = pd.DataFrame(datos)
 #st.dataframe(df)
+st.datos
 
 # BARRA PARA SELECCIONAR
 #st.sidebar.[df('Perfil')]
